@@ -27,7 +27,7 @@
 }
 
 .counter-analog span.part span.digit {
-    background: transparent url(/images/digits.png) 0 0 repeat-y;
+    background: transparent url(https://accu-racist.herokuapp.com/images/digits.png) 0 0 repeat-y;
 }
 
 .counter-analog span.part span.digit0 { background-position: 0     0; }

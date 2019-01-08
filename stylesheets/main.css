@@ -23,11 +23,7 @@ body {
 }
 
 .bg-enable {
-    background: #FFF url(/images/darkcurtain.jpg) repeat-x;
-}
-
-.bg-disable {
-    background: #FFF url(/images/transparent.png) repeat-x repeat-y;
+    background: #FFF url(https://accu-racist.herokuapp.com/images/darkcurtain.jpg) repeat-x;
 }
 
 img {
@@ -61,7 +57,7 @@ img {
     position: absolute;
     width: 62px;
     height: 310px;
-    background: url(/images/icons.png) -65px -62px no-repeat;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) -65px -62px no-repeat;
     top: -40px;
     left: 6%;
     z-index: 4;
@@ -132,12 +128,12 @@ input[type=checkbox] + label span {
     height: 19px;
     margin: -1px 4px 0 0;
     vertical-align: middle;
-    background: url(/images/icons.png) -156px top no-repeat;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) -156px top no-repeat;
     cursor: pointer;
 }
 
 input[type=checkbox]:checked + label span {
-    background: url(/images/icons.png) -175px top no-repeat;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) -175px top no-repeat;
 }
 
 input[type=radio] {
@@ -145,7 +141,7 @@ input[type=radio] {
 }
 
 input[type=radio] + label span {
-    background: url(/images/icons.png) no-repeat scroll -194px top transparent;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat scroll -194px top transparent;
     cursor: pointer;
     display: inline-block;
     height: 19px;
@@ -155,16 +151,16 @@ input[type=radio] + label span {
 }
 
 input[type=radio]:checked + label span {
-    background: url(/images/icons.png) no-repeat scroll -213px top transparent;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat scroll -213px top transparent;
 }
 
 #container {
     float: left;
     width: 500px;
     height: 400px;
-    background: url(/images/canvas-bg.jpg);
+    background: url(https://accu-racist.herokuapp.com/images/canvas-bg.jpg);
     border: 40px solid transparent;
-    border-image: url(/images/border.jpg) 84 92 87 90 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/border.jpg) 84 92 87 90 stretch;
 }
 
 .unselectable {
@@ -226,7 +222,7 @@ input[type=radio]:checked + label span {
     height: 305px;
     width: 19px;
     position: relative;
-    background: url(/images/icons.png) 0 -62px;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) 0 -62px;
     float: left;
     overflow: hidden;
     margin: 0 -3px;
@@ -361,46 +357,6 @@ canvas,section {
     margin: 0 -6px 20px 14px;
 }
 
-/*------------------- Facebook Widgets --------------------- */
-
-.facebook-button:link,.facebook-button:visited {
-    background-color: #eee;
-    background-image: -moz-linear-gradient(top, #fdfdfd, #eaebeb);
-    background-image: -ms-linear-gradient(top, #fdfdfd, #eaebeb);
-    background-image: -o-linear-gradient(top, #fdfdfd, #eaebeb));
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#eaebeb));
-    background-image: -webkit-linear-gradient(top, #fdfdfd, #eaebeb);
-    background-image: linear-gradient(top, #fdfdfd, #eaebeb);
-    border: 1px solid #a9a9a9;
-    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    box-shadow: 0 1px 0 rgba(0,0,0,.1);
-    color: #4f4f4f;
-    display: -moz-inline-box;
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 20px;
-    padding: 0 4px;
-    outline: none;
-    text-decoration: none;
-    text-shadow: 0 1px 1px rgba(255,255,255,.33);
-}
-
-.facebook-button span {
-    padding: 0 0 0 2px;
-}
-
-.facebook-button .plus {
-    background-position: 6px -17px;
-}
-
-.facebook-button .apprequests {
-    background-position: 6px -37px;
-}
-
-/*-------------------------------------------*/
-
 #notebook {
     overflow-x: hidden;
     overflow-y: visible;
@@ -518,7 +474,7 @@ canvas,section {
     width: 50px;
     height: 20px;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch;
     margin: -6px -12px 0 60px;
     color: red;
     font-size: 14px;
@@ -552,7 +508,7 @@ canvas,section {
     width: 54px;
     height: 20px;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch;
     margin: 22px 4px 0 10px;
     position: relative;
     top: -6px;
@@ -563,7 +519,7 @@ canvas,section {
     width: 40px;
     height: 40px;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch;
     margin: 0 36px 0 10px;
     position: relative;
     top: 6px;
@@ -656,11 +612,11 @@ canvas,section {
 
 .social-icons.fb {
     margin-right: 8px;
-    background: url(/images/icons.png) no-repeat -168px -64px
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -168px -64px
 }
 
 .social-icons.gp {
-    background: url(/images/icons.png) no-repeat -200px -64px
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -200px -64px
 }
 
 .medal {
@@ -670,42 +626,42 @@ canvas,section {
 }
 
 .medal.first {
-    background: url(/images/icons.png) no-repeat 0 0
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat 0 0
 }
 
 .medal.second {
-    background: url(/images/icons.png) no-repeat -50px 0
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -50px 0
 }
 
 .medal.third {
-    background: url(/images/icons.png) no-repeat -100px 0
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -100px 0
 }
 
 .top-list-header-1 {
-    background: url(/images/icons.png) no-repeat -192px -22px;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -192px -22px;
     width: 40px;
     height: 40px;
     float: left;
     border: 1px solid;
-    border-image: url(/images/header-sketch.png) 9 11 7 9 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/header-sketch.png) 9 11 7 9 stretch;
     position: relative;
     left: -6px
 }
 
 .top-list-header-2 {
-    background: url(/images/icons.png) no-repeat -151px -22px;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -151px -22px;
     width: 40px;
     height: 40px;
     float: left;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch;
     margin: 0 0 0 20px
 }
 
 .top-list-header-3, .top-list-header-4, .top-list-header-5 {
     float: left;
     border: 1px solid;
-    border-image: url(/images/header-sketch.png) 9 11 7 9 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/header-sketch.png) 9 11 7 9 stretch;
     margin: 10px 0 0 30px
 }
 
@@ -714,7 +670,7 @@ canvas,section {
     width: 30px;
     margin-top: 10px;
     border: 1px solid;
-    border-image: url(/images/header-sketch.png) 9 11 7 9 stretch
+    border-image: url(https://accu-racist.herokuapp.com/images/header-sketch.png) 9 11 7 9 stretch
 }
 
 .top-list-data-2 {
@@ -723,7 +679,7 @@ canvas,section {
     width: 40px;
     height: 40px;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch
 }
 
 .top-list-data-3, .top-list-data-4, .top-list-data-5 {
@@ -732,23 +688,23 @@ canvas,section {
     width: 40px;
     height: 23px;
     border: 1px solid;
-    border-image: url(/images/header-sketch.png) 9 11 7 9 stretch
+    border-image: url(https://accu-racist.herokuapp.com/images/header-sketch.png) 9 11 7 9 stretch
 }
 
 .recent-list-header-1 {
-    background: url(/images/icons.png) no-repeat -151px -22px;
+    background: url(https://accu-racist.herokuapp.com/images/icons.png) no-repeat -151px -22px;
     width: 40px;
     height: 40px;
     float: left;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch;
     margin: 0 0 0 30px
 }
 
 .recent-list-header-2, .recent-list-header-3, .recent-list-header-4 {
     float: left;
     border: 1px solid;
-    border-image: url(/images/header-sketch.png) 9 11 7 9 stretch;
+    border-image: url(https://accu-racist.herokuapp.com/images/header-sketch.png) 9 11 7 9 stretch;
     margin: 10px 0 0 30px
 }
 
@@ -758,7 +714,7 @@ canvas,section {
     width: 40px;
     height: 40px;
     border: 1px solid;
-    border-image: url(/images/picture-sketch.png) 1 25 23 1 stretch
+    border-image: url(https://accu-racist.herokuapp.com/images/picture-sketch.png) 1 25 23 1 stretch
 }
 
 .recent-list-data-2, .recent-list-data-3, .recent-list-data-4 {
@@ -767,5 +723,5 @@ canvas,section {
     width: 40px;
     height: 23px;
     border: 1px solid;
-    border-image: url(/images/header-sketch.png) 9 11 7 9 stretch
+    border-image: url(https://accu-racist.herokuapp.com/images/header-sketch.png) 9 11 7 9 stretch
 }
