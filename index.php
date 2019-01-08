@@ -102,8 +102,8 @@
 
 
     <!-- when loading .css files from CDN, make sure to change all relative URLs in all of them -->
-    <link rel="preload" href="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist/stylesheets/jquery.counter-analog.min.css,gh/dibyendu/accu-racist/stylesheets/jquery.fancybox.min.css,gh/dibyendu/accu-racist/stylesheets/tipTip.min.css" as="style" onload="this.rel='stylesheet'">
-    <link href="https://cdn.jsdelivr.net/gh/dibyendu/accu-racist/stylesheets/main.min.css" rel="stylesheet">
+    <link rel="preload" href="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist@master/stylesheets/jquery.counter-analog.min.css,gh/dibyendu/accu-racist@master/stylesheets/jquery.fancybox.min.css,gh/dibyendu/accu-racist@master/stylesheets/tipTip.min.css" as="style" onload="this.rel='stylesheet'">
+    <link href="https://cdn.jsdelivr.net/gh/dibyendu/accu-racist@master/stylesheets/main.min.css" rel="stylesheet">
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
@@ -150,9 +150,9 @@
     <script src="/javascript/controller.js" type="text/javascript" async defer></script -->
 
 
-    <script src="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist/javascript/jquery.counter.min.js,gh/dibyendu/accu-racist/javascript/jquery.odoticker.min.js,gh/dibyendu/accu-racist/javascript/jquery.tipTip.min.js,gh/dibyendu/accu-racist/javascript/jquery.fancybox.min.js,gh/dibyendu/accu-racist/javascript/alphabet.min.js,gh/dibyendu/accu-racist/javascript/bubbleText.min.js" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/gh/dibyendu/accu-racist/javascript/main.min.js" type="text/javascript" async></script>
-    <script src="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist/javascript/kinetic.min.js,gh/dibyendu/accu-racist/javascript/core.min.js,gh/dibyendu/accu-racist/javascript/start.min.js,gh/dibyendu/accu-racist/javascript/end.min.js,gh/dibyendu/accu-racist/javascript/rect.min.js,gh/dibyendu/accu-racist/javascript/circle.min.js,gh/dibyendu/accu-racist/javascript/bisect.min.js,gh/dibyendu/accu-racist/javascript/midpoint.min.js,gh/dibyendu/accu-racist/javascript/converge.min.js,gh/dibyendu/accu-racist/javascript/diameter.min.js,gh/dibyendu/accu-racist/javascript/triangle.min.js,gh/dibyendu/accu-racist/javascript/right-angle.min.js,gh/dibyendu/accu-racist/javascript/controller.min.js" type="text/javascript" async defer></script>
+    <script src="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist@master/javascript/jquery.counter.min.js,gh/dibyendu/accu-racist@master/javascript/jquery.odoticker.min.js,gh/dibyendu/accu-racist@master/javascript/jquery.tipTip.min.js,gh/dibyendu/accu-racist@master/javascript/jquery.fancybox.min.js,gh/dibyendu/accu-racist@master/javascript/alphabet.min.js,gh/dibyendu/accu-racist@master/javascript/bubbleText.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dibyendu/accu-racist@master/javascript/main.min.js" type="text/javascript" async></script>
+    <script src="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist@master/javascript/kinetic.min.js,gh/dibyendu/accu-racist@master/javascript/core.min.js,gh/dibyendu/accu-racist@master/javascript/start.min.js,gh/dibyendu/accu-racist@master/javascript/end.min.js,gh/dibyendu/accu-racist@master/javascript/rect.min.js,gh/dibyendu/accu-racist@master/javascript/circle.min.js,gh/dibyendu/accu-racist@master/javascript/bisect.min.js,gh/dibyendu/accu-racist@master/javascript/midpoint.min.js,gh/dibyendu/accu-racist@master/javascript/converge.min.js,gh/dibyendu/accu-racist@master/javascript/diameter.min.js,gh/dibyendu/accu-racist@master/javascript/triangle.min.js,gh/dibyendu/accu-racist@master/javascript/right-angle.min.js,gh/dibyendu/accu-racist@master/javascript/controller.min.js" type="text/javascript" async defer></script>
 
 
 </head>
