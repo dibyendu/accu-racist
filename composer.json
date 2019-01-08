@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": "^7.3.0",
+        "mongodb/mongodb": "^1.4",
+        "facebook/graph-sdk": "^4.0.0",
+        "ext-mbstring": "*",
+        "alcaeus/mongo-php-adapter": "^1.1"
+    },
+    "config": {
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
+    }
+}

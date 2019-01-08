@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+      var   password = null
+      while (password == null || password == '')
+        password = prompt('Please enter the admin password')
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+    <script>
+      function reset() {
+        jQuery.ajax({
+          url: 'database/reset.php',
+          type: 'POST',
+          timeout: 20000,
+          data: {
+            password: password
+          },
+          success: function(message) {
+            alert(message)
+          }
+        })
+      }
+    </script>
+</head>
+
+<body>
+  <button style='width: 100px; height: 40px; position: relative; margin-top: 50px; margin-left: calc(50% - 50px)' onclick='reset()'>Reset Database</button>
+</body>
+</html>
