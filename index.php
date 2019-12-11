@@ -160,8 +160,7 @@
 <body class="bg-enable" style="overflow-y: hidden; overflow-x: hidden">
     
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&cookie=1&version=v5.0&appId=<?php echo AppInfo::appID(); ?>&autoLogAppEvents=1"></script>
-
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=219743985631064&autoLogAppEvents=1"></script>
 <!--     <div id="fb-root"></div> -->
     <script>
 //         function statusChangeCallback(response) {
