@@ -169,7 +169,10 @@
             }
         }
         
-        function afterFbLogin() {
+        var afterFbLogin = function (response) {
+            console.log('---------------');
+            console.log(response);
+            console.log('---------------');
             FB.getLoginStatus(function(response) {
                 statusChangeCallback(response);
             });
@@ -204,7 +207,7 @@
           <p style="font-family: 'Tangerine', cursive; font-size: 100px; text-align: center; margin-top: 200px">It's time to test your <span class="info">accuracy</span><span id="game-on">Continue</span></p>
           <a class="rope"></a>
         <?php } else { ?>
-          <div style="z-index: 4; top: 250px" class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" onlogin="afterFbLogin();"></div>
+          <div style="z-index: 4; top: 250px" class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" onlogin="afterFbLogin"></div>
         <?php } ?>
 
     </div>
