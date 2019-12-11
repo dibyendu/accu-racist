@@ -211,7 +211,7 @@
           <a class="rope"></a>
         <?php } else { ?>
 <!--           <div style="z-index: 4; top: 250px" class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" data-onlogin="afterFbLogin"></div> -->
-            <div class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" data-onlogin="afterFbLogin"></div>
+            <div style="z-index: 4; top: 250px" class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true"></div>
         <?php } ?>
 
     </div>
