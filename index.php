@@ -175,7 +175,7 @@
                 xfbml: true,
                 cookie: true,
                 autoLogAppEvents: true,
-                version: 'v3.2'
+                version: 'v5.0'
             });
         };
         (function(d, s, id) {
