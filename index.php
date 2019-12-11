@@ -161,15 +161,18 @@
 
     <div id="fb-root"></div>
     <script>
-        var afterFbLogin = function(response) {
-            console.log("==========");
-            console.log(response);
-            console.log("==========");
-            if (response.authResponse) {
+        function statusChangeCallback(response) {
+            if (response.status === 'connected') {
                 window.location = window.location;
             } else {
                 alert('User cancelled login or did not fully authorize.');
             }
+        }
+        
+        function afterFbLogin() {
+            FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+            });
         }
 
         window.fbAsyncInit = function() {
@@ -179,6 +182,9 @@
                 cookie: true,
                 autoLogAppEvents: true,
                 version: 'v5.0'
+            });
+            FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
             });
         };
         (function(d, s, id) {
@@ -201,7 +207,7 @@
           <p style="font-family: 'Tangerine', cursive; font-size: 100px; text-align: center; margin-top: 200px">It's time to test your <span class="info">accuracy</span><span id="game-on">Continue</span></p>
           <a class="rope"></a>
         <?php } else { ?>
-          <div style="z-index: 4; top: 250px" class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" onlogin="afterFbLogin"></div>
+          <div style="z-index: 4; top: 250px" class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" onlogin="afterFbLogin();"></div>
         <?php } ?>
 
     </div>
