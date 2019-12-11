@@ -162,6 +162,9 @@
     <div id="fb-root"></div>
     <script>
         var afterFbLogin = function(response) {
+            console.log("==========");
+            console.log(response);
+            console.log("==========");
             if (response.authResponse) {
                 window.location = window.location;
             } else {
