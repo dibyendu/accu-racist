@@ -158,61 +158,34 @@
 </head>
 
 <body class="bg-enable" style="overflow-y: hidden; overflow-x: hidden">
-    
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=219743985631064&autoLogAppEvents=1"></script>
-<!--     <div id="fb-root"></div> -->
-    <script>
-//         function statusChangeCallback(response) {
-//             if (response.status === 'connected') {
-//                 window.location = window.location;
-//             } else {
-//                 alert('User cancelled login or did not fully authorize.');
-//             }
-//         }
-        
-        var afterFbLogin = function (response) {
-            console.log('---------------');
-            console.log(response);
-            console.log('---------------');
-//             FB.getLoginStatus(function(response) {
-//                 statusChangeCallback(response);
-//             });
-        }
-        
+    <script>        
         var login = function () {
-            console.log('calling FB login');
             FB.login(function(response) {
-                console.log('---------------');
-                console.log(response);
-                console.log('---------------');
                 if (response.status === 'connected') {
-            
+                    window.location = window.location;
                 } else {
-            
+                    alert('User cancelled login or did not fully authorize.');
                 }
             }, {scope: 'public_profile,email'});
         }
-        
-        
-
-//         window.fbAsyncInit = function() {
-//             FB.init({
-//                 appId: '<?php echo AppInfo::appID(); ?>',
-//                 xfbml: true,
-//                 cookie: true,
-//                 autoLogAppEvents: true,
-//                 version: 'v5.0'
-//             });
-//         };
-//         (function(d, s, id) {
-//             var js, fjs = d.getElementsByTagName(s)[0];
-//             if (d.getElementById(id)) return;
-//             js = d.createElement(s);
-//             js.id = id;
-//             js.src = "https://connect.facebook.net/en_US/sdk.js";
-//             fjs.parentNode.insertBefore(js, fjs);
-//         }(document, 'script', 'facebook-jssdk'));
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '<?php echo AppInfo::appID(); ?>',
+                xfbml: true,
+                cookie: true,
+                autoLogAppEvents: true,
+                version: 'v5.0'
+            });
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <div class="leftcurtain"><img src="/images/frontcurtain.jpg" width="479" height="495"></div>
@@ -226,7 +199,7 @@
           <a class="rope"></a>
         <?php } else { ?>
             <!-- div style="z-index: 4; top: 250px" class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" data-onlogin="afterFbLogin"></div -->
-            <button style="z-index: 4; top: 250px; height=40px" onclick="login">Continue with Facebook</button>
+            <div style="z-index: 4; top: 250px; height=40px; cursor: pointer" onclick="login()">Continue with Facebook</div>
         <?php } ?>
 
     </div>
