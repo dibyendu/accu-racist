@@ -160,6 +160,13 @@
 <body class="bg-enable" style="overflow-y: hidden; overflow-x: hidden">
     <div id="fb-root"></div>
     <script>        
+//         var afterLogin = function (response) {
+//             if (response.status === 'connected') {
+//                 window.location = window.location;
+//             } else {
+//                 alert('User cancelled login or did not fully authorize.');
+//             }
+//         }
         var login = function () {
             FB.login(function(response) {
                 if (response.status === 'connected') {
@@ -198,10 +205,9 @@
           <p style="font-family: 'Tangerine', cursive; font-size: 100px; text-align: center; margin-top: 200px">It's time to test your <span class="info">accuracy</span><span id="game-on">Continue</span></p>
           <a class="rope"></a>
         <?php } else { ?>
-            <!-- div style="z-index: 4; top: 250px" class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" data-onlogin="afterFbLogin"></div -->
-            <div style="z-index: 4; top: 250px; height=40px; cursor: pointer" onclick="login()">Continue with Facebook</div>
+            <!-- div style="z-index: 4; top: 250px" class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="true" data-scope="email" data-onlogin="afterLogin"></div -->
+            <div style="position: relative; display: inline-block; line-height: 20px; z-index: 4; top: 250px; cursor: pointer; background-color: #1877F2; padding: 8px; color: white; border-radius: 4px" onclick="login()">Continue with Facebook</div>
         <?php } ?>
-
     </div>
 
     <div id="info-holder-wrapper" style="display: none">
