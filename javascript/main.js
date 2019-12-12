@@ -263,13 +263,6 @@ jQuery(document).ready(
             closeBtn: true
         });
 
-        jQuery(".profile").tipTip({
-            delay: 200,
-            defaultPosition: "top",
-            keepAlive: true,
-            content: "<div style='height: 32px; display: block'><a class='social-icons fb' href='https://www.facebook.com/diby3ndu' target='_blank' title='Dibyendu Das on Facebook' alt='Dibyendu Das Facebook Icon'></a><a class='social-icons gp' href='https://plus.google.com/u/0/+Dibyendu_Das_India' target='_blank' title='Dibyendu Das on Google+' alt='Dibyendu Das Google+ Icon'></a></div>"
-        });
-
         ['Best (highest) avg. score', 'Best (lowest) avg. error', 'Avg. time (in sec) taken for the corresponding best score'].forEach(function (elem, idx) {
           jQuery("#topper .header li:eq(" + (idx + 1) + ")").tipTip({
               defaultPosition: "top",
