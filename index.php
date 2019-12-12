@@ -181,6 +181,7 @@
         }
         
         var login = function () {
+            console.log('calling FB login');
             FB.login(function(response) {
                 console.log('---------------');
                 console.log(response);
