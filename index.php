@@ -449,7 +449,7 @@
 
         <div id="bottom-pane">
             <p style="margin: 0px; position: relative; top: -90px; left: -140px">Time Elasped <span class="counter counter-analog" data-direction="up" data-format="9:59.9" data-interval="100" data-stop="9:59.9">0:00.0</span></p>
-            <p style="font-size: 12px; position: relative; top: -25px">This application is developed by <a class="button-link" href="https://www.facebook.com/diby3ndu" style="color: #1f49ff; text-decoration: none" target="_blank">Dibyendu Das</a> [copyleft &nbsp;&#596;&#8413;&nbsp;]<br> Source Code is released in <a class="button-link" href="https://github.com/dibyendu/<?php echo $app_name; ?>" style="color: #1f49ff; text-decoration: none" target="_blank">GitHub</a> under <a class="button-link" href="http://www.gnu.org/licenses/gpl-3.0-standalone.html" style="color: #1f49ff; text-decoration: none" target="_blank" title="GPLv3">GNU General Public License</a></p>
+            <p style="font-size: 12px; position: relative; top: -25px">This application is developed by Dibyendu Das [copyleft &nbsp;&#596;&#8413;&nbsp;]<br> Source Code is released in <a class="button-link" href="https://github.com/dibyendu/<?php echo $app_name; ?>" style="color: #1f49ff; text-decoration: none" target="_blank">GitHub</a> under <a class="button-link" href="http://www.gnu.org/licenses/gpl-3.0-standalone.html" style="color: #1f49ff; text-decoration: none" target="_blank" title="GPLv3">GNU General Public License</a></p>
         </div>
     </div>
 </body>
