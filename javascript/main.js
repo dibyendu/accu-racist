@@ -133,7 +133,7 @@ function registerSuccessfulCompletion(id, error, time, score) {
 
 function loadImage(index, id, error, time, score, name, date, address) {
     var img = jQuery("<img>").attr({
-        'src': 'https://graph.facebook.com/' + id + '/picture?width=80&height=80',
+        'src': 'https://graph.facebook.com/' + id + '/picture?width=80&height=80&access_token=' + image_token,
         'width': '38px',
         'height': '38px'
     }).load(
