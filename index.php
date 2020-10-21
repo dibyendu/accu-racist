@@ -151,7 +151,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist@master/javascript/jquery.counter.min.js,gh/dibyendu/accu-racist@master/javascript/jquery.odoticker.min.js,gh/dibyendu/accu-racist@master/javascript/jquery.tipTip.min.js,gh/dibyendu/accu-racist@master/javascript/jquery.fancybox.min.js,gh/dibyendu/accu-racist@master/javascript/alphabet.min.js,gh/dibyendu/accu-racist@master/javascript/bubbleText.min.js" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/gh/dibyendu/accu-racist@master/javascript/main.min.js" type="text/javascript" async></script>
+    <script src="https://cdn.jsdelivr.net/gh/dibyendu/accu-racist@master/javascript/main.js" type="text/javascript" async></script>
     <script src="https://cdn.jsdelivr.net/combine/gh/dibyendu/accu-racist@master/javascript/kinetic.min.js,gh/dibyendu/accu-racist@master/javascript/core.min.js,gh/dibyendu/accu-racist@master/javascript/start.min.js,gh/dibyendu/accu-racist@master/javascript/end.min.js,gh/dibyendu/accu-racist@master/javascript/rect.min.js,gh/dibyendu/accu-racist@master/javascript/circle.min.js,gh/dibyendu/accu-racist@master/javascript/bisect.min.js,gh/dibyendu/accu-racist@master/javascript/midpoint.min.js,gh/dibyendu/accu-racist@master/javascript/converge.min.js,gh/dibyendu/accu-racist@master/javascript/diameter.min.js,gh/dibyendu/accu-racist@master/javascript/triangle.min.js,gh/dibyendu/accu-racist@master/javascript/right-angle.min.js,gh/dibyendu/accu-racist@master/javascript/controller.min.js" type="text/javascript" async defer></script>
 
 
