@@ -10,6 +10,9 @@ class AppInfo {
   public static function appSecret() {
     return getenv('FACEBOOK_SECRET');
   }
+  public static function appClientToken() {
+    return getenv('FACEBOOK_CLIENT_TOKEN');
+  }
   public static function dbUser() {
     return getenv('DB_USER');
   }
