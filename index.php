@@ -48,8 +48,7 @@
         $country = $location->country_name;
         $state = $location->region_name;
         $city = $location->city;
-
-
+        $image_token = AppInfo::appID() . '|' . AppInfo::appClientToken();
       } catch (FacebookRequestException $e) {
         echo 'Facebook Graph API returned an error: ' . $e->getMessage();
         exit;
@@ -125,6 +124,7 @@
         };
         var app_name = "<?php echo $app_name; ?>".replace('-', '_').toUpperCase();
         var app_title = "<?php echo $app_title; ?>";
+        var image_token = "<?php echo $$image_token; ?>";        
     </script>
 
 
